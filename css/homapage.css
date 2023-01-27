@@ -131,7 +131,7 @@ nav a {
 }
 
 .banner-button{
-    padding: 26px 36px;
+    /*padding: 26px 36px;
     width: auto;
     border-radius: 50px;
     border: solid 2px rgba(255, 122, 0, 1);
@@ -139,6 +139,28 @@ nav a {
     font-weight: 600;
     text-decoration: none;
     margin-left: 130px;
+
+    max-width: 100%;
+    float: none;
+    margin: auto;
+    display: flex;
+    padding: var(--padding, 10px 20px);
+    border-radius: var(--radius-4);
+    margin-bottom:40px;
+    border-radius: 50px;
+    color: #ff6600;
+    border: 2px solid #ff6600;
+    background-color: #ffffff;*/
+
+    padding: 26px 36px;
+    border-radius: 50px;
+    border: solid 2px rgba(255, 122, 0, 1);
+    color: rgba(255, 122, 0, 1) ;
+    font-weight: 600;
+    text-decoration: none;
+
+    max-width: 100%;
+
 }
 
 
