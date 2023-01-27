@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+<div class="first-layer">
+	<nav id="navbar">
+
+		<h1 class="logo">LOGO</h1> <!--Change h1 to <img src="" class="logo"> if image input -->
+		<ul id="menu">
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">ABOUT US</a></li>
+			<li><a href="#">WORKS</a></li>
+			<li><a href="#">PRICING</a></li>
+			<li><a href="#"><span>CONTACT US</span></a></li>
+		</ul>
+
+	</nav>
+
+	<div class="text">
+		<h1> The Wine Club <span>Site</span></h1>
+	</div>
+	<br>
+	<br>
+	<h4 class="role">
+		Role/Service: <span>UI/UX Design</span>
+	</h4>
+
+
+
+	<div class="club-img">
+		 <!-- <img src="img/club-bg.png"> -->
+		 <img src="logo1.png"  width="200" height="100"> 
+
+	</div>
+
+
+	
+	<div class="android">
+			<table>
+				<tr>
+					<th><img src="android-cp1.png"></th>
+					<th>
+					<h1><span>Vulputate</span> fringilla eget <br>quam</h1>
+					<br>
+					<br>
+					<br>
+						<p>
+							Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. Quis at a feugiat egestas laoreet et nullam. <br> Vulputate habitant fames gravida pulvinar et <br> nascetur. Amet ut tellus integer pellentesque varius <br> tellus nam amet. <br><br><br>
+
+							Consectetur adipiscing elit. Quis at a feugiat <br> pellentesque varius tellus nam amet. 
+						</p>
+					</th>
+				</tr>
+			</table>
+			
+	</div>
+		
+
+	
+
+</div>
+
+<div class="second-layer">
+		<ul>
+			<li> <img src="phone1.png" width="120" height="180"></li>
+			<li class="li"><img src="phone2.png" width="120" height="180"></li>
+			<li><img src="phone3.png" width="120" height="180"></li>
+
+		</ul>
+
+</div>
+
+<br>
+<br>
+
+<div class="footer">
+
+	<section class="consult">
+		<div class="title-works">
+		  <p>Ready to start your journey with us today?</p>
+		  <h2 style="margin-bottom: 1em;">Let's get <span>started.</span>
+		  </h2>
+		  <a  href="#home" class="banner-button">BOOK A FREE CONSULTATION CALL</a>
+		</div>
+	  </section>
+
+	<footer style="margin-bottom: 2rem; width:100%; padding-left: 5rem; padding-right: 5rem;">
+		<div style="margin-bottom: 10px">
+		  <img src="img/logo.png" alt="">
+		  <i style="font-size: 2rem; float:right; margin-left: 1rem" class="bi bi-linkedin"></i>
+		  <i style="font-size: 2rem; float:right; margin-left: 1rem" class="bi bi-facebook"></i>
+		  <i style="font-size: 2rem; float:right; margin-left: 1rem" class="bi bi-envelope"></i>
+		</div>
+		<hr style="margin-bottom: 1rem">
+		<div class="div">
+		  <span style="font-size:1.2rem">&copy; ALL RIGHTS RESERVED</span>
+		  <span style="font-size:1.2rem; float:right">DESIGN & BUILT BY MYSELF</span>
+		</div>
+	  </footer>
+</div>
+
+
+
+<script type="text/javascript">
+	var navbar = document.getElementById("navbar");
+	var menu = document.getElementById("menu");
+
+	window.onscroll = function(){
+		if (window.pageYOffset >= menu.offsetTop) {
+			navbar.classList.add("sticky");
+		}
+		else{
+			navbar.classList.remove("sticky");
+		}
+	}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+
+}
+
+.first-layer{
+	background: #fff;
+	width: 100%;
+	height: 100vh;
+}
+ nav{
+	width: 100%;
+	padding: 20px 0;
+	left: 150px;
+	text-align: right;
+	background-color: #fff;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: right;
+    overflow: hidden;
+    background-color: #ffffff;
+    z-index: 1000;
+}
+nav .logo {
+	position: absolute;
+	width: 103px;
+	height: 44px;
+	left: 150px;
+	top: 42px;
+	cursor: pointer;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 44px;
+	color: #FFA800;
+
+}
+nav ul{
+	
+	width: 100%;
+	margin-top: 20px;
+	margin-left: 10%;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 20px 30px;
+	color: #fff;
+	position: relative;	
+}
+
+nav ul li a{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #000000;
+	text-decoration: none;
+	right: 20px;
+
+
+}
+
+nav ul li a span{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-decoration: none;
+	right: 20px;
+	padding: 20px 30px;
+	background: #F2F2F2;
+	border-radius: 50px; 
+}
+
+.text{
+position: relative;
+left: 150px;
+right: 19.1%;
+top: 26.92%;
+bottom: 89.81%;
+
+
+}
+.text h1{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 101px;
+line-height: 122px;
+letter-spacing: 0.015em;
+}
+.text h1 span{
+	color:#FF7A00;
+}
+
+.role {
+	position: relative;
+	width: 270px;
+	height: 25px;
+	left: 150px;
+	top: 150px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+	color: #BDBDBD;
+}
+.role span{
+	color: #000;
+}
+.club-img{
+	position: relative;
+	width: 1139px;
+	height: 793px;
+	left: 150px;
+	top: 304px;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))
+	,url(imgclub-bg.png);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	
+	
+}
+.club-img img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+
+	
+
+}
+
+nav.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.android{
+position: relative;
+top:400px;
+left: 150px;
+display: inline-block;
+
+}
+.android{
+	left: 250px;
+	position: relative;
+}
+
+table tr th p {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 25px;
+	color: #626161;
+	text-align: justify;
+	left: 20px;
+	padding: 20px;
+}
+table tr th h1{
+	text-align: justify;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 61px;
+	letter-spacing: 0.015em;
+	left: 20px;
+}
+table tr th h1 span{
+	color: #F2994A;
+}
+table tr th image{
+	position: absolute;
+	width: 349px;
+	height: 509px;
+	left: 263px;
+	top: 1421px;
+}
+table tr th{
+	padding-right: 88px;
+	top: 88px;
+}
+table tr th p{
+	top: 88px;
+}
+
+/* Second layer */
+.second-layer{
+
+position: relative;
+width:100%;
+height: 965.86px;
+top: 1600px;
+background: #F9F2E1;
+}
+.second-layer ul li{
+display: inline-block;
+position: relative;
+padding-right: 100px;
+
+}
+.second-layer ul li img{
+	height: 450px;
+	width: 220px;
+	position: relative;
+    top: 219px;
+    left: 250px;
+}
+.li{
+	margin-top: 100px;
+	position: absolute;
+}
+
+
+.footer{
+position: relative;
+width:100%;
+height: 965.86px;
+top: 1600px;
+background: #FFFF;
+}
+
+.Works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 173px;
+}
+
+.title-works{
+    padding-bottom: 70px ;
+    width: 698px;
+    text-align: center;
+	
+}
+
+.title-works h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: 0.015em;
+    margin-bottom: 23px;
+	position: relative;
+    left: 300px;
+    color: #121212;
+}
+
+.title-works p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    /* or 147% */
+	position: relative;
+    left: 300px;
+    color: #626161;
+}
+
+.title-works span{
+    color: #F2994A;
+}

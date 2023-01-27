@@ -1,0 +1,212 @@
+@media only screen and (max-width: 1200px) {
+    .contactform
+    {
+        border-top: 3px #ffa800 solid;
+        border-radius: 20px;
+        width: 90%;
+        box-shadow: 0px 35px 40px -20px #A9A9A9;
+    }
+    .line{
+        position: absolute;
+        top: 37%;
+        left: 35%;
+        width: 300px;
+    }
+    .banner{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        position: relative;
+    }
+    .bannerimg
+    {
+        margin-top: 0px;
+    }
+    .banner h1{
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.015em;
+        color: #121212;
+        margin-bottom: 0px;
+    }
+    
+    .banner p {
+        margin: 20px 0 ;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.0025em;
+        width: 80%;
+        color: #626161;
+        margin-bottom: 95px;
+    }
+    
+    .banner-button{
+        padding: 20px 30px;
+        width: auto;
+        border-radius: 50px;
+        border: solid 2px rgba(255, 122, 0, 1);
+        color: rgba(255, 122, 0, 1) ;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    .accordion {
+        width: 50%;
+        color: white;
+        overflow: hidden;
+        border-radius: 20px;
+        margin-bottom: 28px;
+        border: 1px solid #C4C4C4;
+    }
+    .accordion:last-child{
+        margin-bottom: 0;
+    }
+    .accordion-label {
+        display: flex;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        /* padding: 16px; */
+        /* background: rgba(4,57,94,.8); */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 25px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: #121212;
+        cursor: pointer;
+        padding: 38px;
+        color: #121212;
+    }
+    .accordion-label:hover {
+        background: #fafafa;
+    }
+    .accordion-label::after {
+        content: "\276F";
+        width: 16px;
+        height: 16px;
+        text-align: center;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    .accordion-content {
+        max-height: 0;
+        padding: 0 16px;
+        color: rgba(4,57,94,1);
+        background: white;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    .accordion-content p{
+        margin: 0;
+        color: #555555;
+        font-size: 18px;
+        padding: 20px;
+    }
+    .title-services h2 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 61px;
+        letter-spacing: 0.015em;
+        margin-bottom: 23px;
+        color: #121212;
+    }
+    .title-services p {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 61px;
+        letter-spacing: 0.015em;
+        margin-bottom: 23px;
+        color: #121212;
+        width: 80%;
+    }
+    }
+@media only screen and (max-width: 700px) {
+.contactform
+{
+    border-top: 3px #ffa800 solid;
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 0px 35px 40px -20px #A9A9A9;
+    
+}
+.line{
+    position: absolute;
+    top: 37%;
+    left: 35%;
+    width: 300px;
+}
+}
+@media only screen and (max-width: 400px) {
+    nav a {
+        float: right;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;
+        color: #424242;
+        text-align: center;
+        padding: 0px 0px;
+        text-decoration: none;   
+    }
+    .nav-a{
+        margin: 0px 10px;
+    }
+    .nav-button{
+        width: auto;
+        padding: 10px 10px;
+        background: #F2F2F2;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 10px;
+        text-transform: uppercase;
+        margin-left: 30px;
+        background:rgba(255, 122, 0, 1);
+        color: #ffffff;
+    
+    }
+    nav img
+    {
+        width: 50px;
+    }
+    nav
+    {
+        padding-left: 0;
+        padding-right: 2px;
+    }
+    .contact-button{
+        width: auto;
+        padding: 10px 30px;
+        background: #F2F2F2;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 10px;
+        text-transform: uppercase;
+        margin-left: 10px;
+        background:#4F4F4F;
+        color: #ffffff;
+    
+    }
+    .line{
+        position: absolute;
+        top: 28%;
+        left: 50%;
+        width: 125px;
+    }
+    .banner-button{
+        padding: 20px 30px;
+        width: auto;
+        border-radius: 50px;
+        font-size: 12.5px;
+        border: solid 2px rgba(255, 122, 0, 1);
+        color: rgba(255, 122, 0, 1) ;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    }
